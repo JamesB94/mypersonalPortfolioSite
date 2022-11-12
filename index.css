@@ -9,7 +9,7 @@ body {
 .navbar {
     --bs-navbar-color: white;
     --bs-navbar-brand-hover-color: white;
-    padding-top: 2em;
+    /* padding-top: 2em; */
     /* margin-left: 1em; */
     background-color: #090a0b;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 .navbar-nav {
-    font-size: x-large;
+    font-size: large;
     --bs-nav-link-hover-color: #c9c9c9;
 }
 
@@ -43,13 +43,13 @@ body {
 
 .container {
     /* border: 2px solid yellow; */
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     /* margin-top: 50px; */
 }
 
 .introContainer{
     /* border: 1px solid red; */
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 .col-sm {
@@ -57,14 +57,15 @@ body {
 }
 
 .roundedImage {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     justify-content: center;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
-.introduction{ 
+.introduction{
+    margin: 15px;
     text-align: center; 
 }
 
@@ -78,6 +79,7 @@ body {
 .introductionText{
     color: white;
     text-align: center; 
+
     font-size: 2.2rem;
 }
 
@@ -99,7 +101,7 @@ body {
 
 .aboutMeContainer {
     border: 2px solid red;
-    margin-top: 200px;
+    margin-top: 50px;
     background-color: #191b1f;
     padding-bottom: 50px;
     height: 100vh;
@@ -110,20 +112,21 @@ body {
     text-align: center;
     color: white;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .podiumImage {
     border: 1px dotted red;
-    width: 400px;
-    height: 400px;
-    margin-top: 100px;
+    width: 350px;
+    height: 350px;
+    margin-top: 40px;
 }
 
 .aboutMeText {
     border: 1px solid white;
     color: white;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 40px;
     
 }
 

@@ -100,15 +100,24 @@ body {
 /* ABOUT ME css starts here*/
 
 .aboutMeContainer {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 50px;
+    
+    min-height: 100vh;
     background-color: #191b1f;
     padding-bottom: 50px;
-    height: 100vh;
+    height: 100%;
 }
 
+@media only screen and (max-width: 480px) {
+    .aboutMeContainer {
+    background-color: initial;  /* or background-color: transparent; */
+    border-top: 2px solid white;
+   }
+  }
+
 .aboutMeHeader {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     text-align: center;
     color: white;
     padding-bottom: 30px;
@@ -116,14 +125,14 @@ body {
 }
 
 .podiumImage {
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
     width: 350px;
     height: 350px;
     margin-top: 40px;
 }
 
 .aboutMeText {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     color: white;
     margin-left: 50px;
     margin-top: 40px;

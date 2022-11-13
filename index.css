@@ -101,20 +101,13 @@ body {
 
 .aboutMeContainer {
     /* border: 2px solid red; */
-    margin-top: 50px;
+    /* margin-top: 50px; */
     
     min-height: 100vh;
-    background-color: #191b1f;
+    /* background-color: #191b1f; */
     padding-bottom: 50px;
     height: 100%;
 }
-
-@media only screen and (max-width: 480px) {
-    .aboutMeContainer {
-    background-color: initial;  /* or background-color: transparent; */
-    border-top: 2px solid white;
-   }
-  }
 
 .aboutMeHeader {
     /* border: 1px solid white; */
@@ -122,21 +115,75 @@ body {
     color: white;
     padding-bottom: 30px;
     padding-top: 30px;
+    
 }
 
 .podiumImage {
     /* border: 1px dotted red; */
     width: 350px;
     height: 350px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .aboutMeText {
     /* border: 1px solid white; */
     color: white;
     margin-left: 50px;
-    margin-top: 40px;
+    margin-top: 15px;
     
 }
 
 /* ABOUT ME css Ends here*/
+
+/*my skills css starts here*/
+/* .mySkillsContainer {
+    border: 2px solid red;
+} */
+
+.myskillsintro {
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.skillList {
+    margin-top: 40px;
+    border-right: 1px solid white;
+}
+/*my skills css ends here*/
+
+
+.contacrMe {
+    text-align: center;
+    color: white;
+}
+
+.contactText {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.contactText a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #23a0d8 ;
+}
+
+
+
+
+
+
+
+
+
+
+/* Mobile optimization below*/
+@media only screen and (max-width: 480px) {
+    .aboutMeContainer {
+    background-color: initial;  /* or background-color: transparent; */
+    border-top: 2px solid white;
+   }
+  }

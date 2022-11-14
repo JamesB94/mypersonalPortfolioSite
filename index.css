@@ -9,8 +9,6 @@ body {
 .navbar {
     --bs-navbar-color: white;
     --bs-navbar-brand-hover-color: white;
-    /* padding-top: 2em; */
-    /* margin-left: 1em; */
     background-color: #090a0b;
 }
 
@@ -32,47 +30,30 @@ body {
     --bs-nav-link-hover-color: #c9c9c9;
 }
 
-/* .navbar-toggler-icon {
-    border-color: rgb(255,102,203);
-} */
-
 /* NAV BAR CSS ENDS HERE*/
 
 
 /* landing page css starts here*/
-
-.container {
-    /* border: 2px solid yellow; */
-    /* margin-top: 2rem; */
-    /* margin-top: 50px; */
-}
-
-.introContainer{
-    /* border: 1px solid red; */
-    /* margin-top: 100px; */
-}
-
-.col-sm {
-    /* border: 1px dotted white; */
-}
-
 .roundedImage {
     height: 200px;
     width: 200px;
     border-radius: 50%;
     justify-content: center;
-    /* margin-left: 50px; */
 }
 
 .introduction{
     margin: 15px;
     text-align: center; 
+    
+}
+
+.introduction a {
+    text-decoration: none;
 }
 
 .introduction h1 {
     color: white;
      font-weight: 700;
-   /* font-size: 30px; */
 
 }
 
@@ -86,7 +67,6 @@ body {
 .introductionTextfollowup {
     text-align: center; 
     color: white;
-    /* border: 1px solid red; */
     padding-top: 2rem;
 }
 
@@ -100,17 +80,12 @@ body {
 /* ABOUT ME css starts here*/
 
 .aboutMeContainer {
-    /* border: 2px solid red; */
-    /* margin-top: 50px; */
-    
     min-height: 100vh;
-    /* background-color: #191b1f; */
     padding-bottom: 50px;
     height: 100%;
 }
 
 .aboutMeHeader {
-    /* border: 1px solid white; */
     text-align: center;
     color: white;
     padding-bottom: 30px;
@@ -119,14 +94,12 @@ body {
 }
 
 .podiumImage {
-    /* border: 1px dotted red; */
     width: 350px;
     height: 350px;
     margin-top: 20px;
 }
 
 .aboutMeText {
-    /* border: 1px solid white; */
     color: white;
     margin-left: 50px;
     margin-top: 15px;
@@ -136,9 +109,6 @@ body {
 /* ABOUT ME css Ends here*/
 
 /*my skills css starts here*/
-/* .mySkillsContainer {
-    border: 2px solid red;
-} */
 
 .myskillsintro {
     text-align: center;
@@ -153,7 +123,22 @@ body {
 }
 /*my skills css ends here*/
 
+/*Projects css starts here*/
 
+.projectheader {
+    color: white;
+    text-align: center;
+}
+
+.projectContainer{ 
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+}
+
+/*Projects css ends here*/
+
+/* Contact me css starts here */
 .contacrMe {
     text-align: center;
     color: white;
@@ -170,6 +155,8 @@ body {
     font-weight: bold;
     color: #23a0d8 ;
 }
+
+/* Contact me css starts here */
 
 
 

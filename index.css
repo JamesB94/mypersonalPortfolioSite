@@ -1,78 +1,76 @@
 body {
-    margin: 0%;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #090a0b;
+  margin: 0%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #090a0b;
+
 }
 
 /* NAV BAR CSS STARTS HERE*/
 
 .navbar {
-    --bs-navbar-color: white;
-    --bs-navbar-brand-hover-color: white;
-    background-color: #090a0b;
+  --bs-navbar-color: white;
+  --bs-navbar-brand-hover-color: white;
+  background-color: #090a0b;
 }
 
 .navbar-brand {
-    font-size: xx-large;
-    color: #ffffff;
+  font-size: xx-large;
+  color: #ffffff;
 }
 
 .nav-link {
-    color: #c9c9c9;
+  color: #c9c9c9;
 }
 
 .nav-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .navbar-nav {
-    font-size: large;
-    --bs-nav-link-hover-color: #c9c9c9;
+  font-size: large;
+  --bs-nav-link-hover-color: #c9c9c9;
 }
 
 /* NAV BAR CSS ENDS HERE*/
 
-
 /* landing page css starts here*/
 .roundedImage {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    justify-content: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  justify-content: center;
 }
 
-.introduction{
-    margin: 15px;
-    text-align: center; 
-    
+.introduction {
+  margin: 15px;
+  text-align: center;
 }
 
 .introduction a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .introduction h1 {
-    color: white;
-     font-weight: 700;
-
+  color: white;
+  font-weight: 700;
 }
 
-.introductionText{
-    color: white;
-    text-align: center; 
+.introductionText {
+  color: white;
+  text-align: center;
 
-    font-size: 2.2rem;
+  font-size: 2.2rem;
 }
 
 .introductionTextfollowup {
-    text-align: center; 
-    color: white;
-    padding-top: 2rem;
+  text-align: center;
+  color: white;
+  padding-top: 2rem;
 }
 
 .introductionTextfollowup a {
-    text-decoration: none;
-    color: #23a0d8 ;
+  text-decoration: none;
+  color: #23a0d8;
 }
 
 /* landing page css ends here*/
@@ -80,30 +78,29 @@ body {
 /* ABOUT ME css starts here*/
 
 .aboutMeContainer {
-    min-height: 100vh;
-    padding-bottom: 50px;
-    height: 100%;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  margin-left: 50px;
+  height: 100%;
 }
 
 .aboutMeHeader {
-    text-align: center;
-    color: white;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    
+  text-align: center;
+  color: white;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .podiumImage {
-    width: 350px;
-    height: 350px;
-    margin-top: 20px;
+  width: 350px;
+  height: 350px;
+  margin-top: 20px;
 }
 
 .aboutMeText {
-    color: white;
-    margin-left: 50px;
-    margin-top: 15px;
-    
+  color: white;
+  margin-left: 50px;
+  margin-top: 15px;
 }
 
 /* ABOUT ME css Ends here*/
@@ -111,66 +108,163 @@ body {
 /*my skills css starts here*/
 
 .myskillsintro {
-    text-align: center;
-    color: white;
-    padding-bottom: 30px;
-    padding-top: 30px;
+  text-align: center;
+  color: white;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .skillList {
-    margin-top: 40px;
-    border-right: 1px solid white;
+  margin-top: 40px;
+  border-right: 1px solid white;
 }
 /*my skills css ends here*/
 
 /*Projects css starts here*/
 
 .projectheader {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
-.projectContainer{ 
-    margin-top: 40px;
-    color: white;
-    text-align: center;
+.projectContainer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+  text-align: center;
 }
+
+.projectContainer a {
+  text-decoration: none;
+  color: #23a0d8;
+}
+
+.card-img-top {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  margin: 12px;
+}
+
+.card-img-top.zoomed {
+  z-index: 9999; /* bring the zoomed image to the front */
+  position: fixed; /* make the image fixed to the screen */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 1200px;
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.8); /* add a dark background overlay */
+}
+
+.card-img-top.zoomed img {
+  position: absolute; /* position the zoomed image on top */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto; /* center the image */
+  max-width: 1000px;
+  max-height: 100%;
+}
+
+.projectButtonsGit {
+  font-size: 40px;
+  background-color: unset;
+  border: none;
+  margin-left: 10px;
+  /* position: absolute;
+  bottom: 20; */
+}
+
+.projectButtonsLink {
+  background-color: unset;
+  margin-left: 100px;
+  float: right;
+  padding: 10px;
+  border-color: #0d6efd;
+  
+}
+
+.projectButtonsLink:hover {
+  background-color: #0d6efd;
+}
+
+.projectButtonsLink a {
+  text-decoration: none;
+  color: #090a0b;
+}
+
+.card-footer {
+  height: 100px;
+}
+
+/* .card-body {
+  position: relative;
+} */
 
 /*Projects css ends here*/
 
 /* Contact me css starts here */
 .contacrMe {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 .contactText {
-    margin-top: 100px;
-    text-align: center;
-    color: white;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
 }
 
 .contactText a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #23a0d8 ;
+  text-decoration: none;
+  font-weight: bold;
+  color: #23a0d8;
 }
 
 /* Contact me css starts here */
 
-
-
-
-
-
-
-
-
-
 /* Mobile optimization below*/
 @media only screen and (max-width: 480px) {
-    .aboutMeContainer {
-    background-color: initial;  /* or background-color: transparent; */
+  .aboutMeContainer {
+    background-color: initial; /* or background-color: transparent; */
     border-top: 2px solid white;
-   }
   }
+
+  .card-img-top.zoomed {
+    z-index: 9999; /* bring the zoomed image to the front */
+    position: fixed; /* make the image fixed to the screen */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.8); /* add a dark background overlay */
+  }
+
+  .card-img-top.zoomed img {
+    position: absolute; /* position the zoomed image on top */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; /* center the image */
+    max-width: 1000px;
+    max-height: 100%;
+  }
+
+  .projectButtonsGit {
+    font-size: 40px;
+    background-color: unset;
+    border: none;
+    margin-left: 10px;
+    /* position: absolute;
+    bottom: 20; */
+  }
+
+}
